@@ -1,1 +1,16 @@
-# sun
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'xyz.pvfilmsx.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'xyz.pvfilmsx.app'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
